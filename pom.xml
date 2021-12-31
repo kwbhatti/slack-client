@@ -4,9 +4,7 @@
 	<artifactId>slack-client</artifactId>
 	<version>1.0.0</version>
 	<name>Slack Client</name>
-	<!-- updated below -->
 	<description>Slack APIs client to send notifications/files, read messages and more</description>
-	<!-- updated below -->
 	<url>https://chimp-central.com/</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,6 +16,7 @@
 		<surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
 		<nexus.staging.maven.plugin>1.6.8</nexus.staging.maven.plugin>
 		<maven.gpg.plugin>1.6</maven.gpg.plugin>
+		<chimp-central.json-utility.version>1.0.0</chimp-central.json-utility.version>
 	</properties>
 	<licenses>
 		<license>
@@ -41,6 +40,12 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.chimp-central</groupId>
+			<artifactId>json-utility</artifactId>
+			<version>${chimp-central.json-utility.version}</version>
 		</dependency>
 	</dependencies>
 	<profiles>
