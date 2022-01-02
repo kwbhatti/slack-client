@@ -1,4 +1,4 @@
-package com.chimpcentral.slack;
+package com.chimpcentral.requestBuilder;
 
 public class SlackWebhookRequestBuilder extends SlackRequestBuilder<SlackWebhookRequestBuilder> {
 	

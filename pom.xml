@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.chimp-central</groupId>
 	<artifactId>slack-client</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<name>Slack Client</name>
 	<description>Slack APIs client to send notifications/files, read messages and more</description>
 	<url>https://chimp-central.com/</url>
